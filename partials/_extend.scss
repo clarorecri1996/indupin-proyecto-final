@@ -20,6 +20,13 @@
     font-size: 25px;
 }
 
+%ecotitulo{
+    color: $ecosecundario;
+    background-color: $ecoprincipal;
+    padding: 10px;
+    font-size: 25px;
+}
+
 %productos{
     display: flex;
     justify-content: space-evenly;

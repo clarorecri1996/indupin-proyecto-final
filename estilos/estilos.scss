@@ -384,6 +384,47 @@ body{
     
 }
 
+.ecologico{
+    h1{
+        @extend %ecotitulo;
+    }
+    .slider{
+        width: 80%;
+        margin: auto;
+        overflow: hidden;
+
+        ul{
+            display: flex;
+            padding: 0;
+            width: 300%;
+
+            animation: cambio 20s infinite;
+            animation-direction: alternate;
+            animation-timing-function: ease-in;
+
+            li{
+                width: 100%;
+                list-style: none;
+                img{
+                    width: 100%;
+                    height: 500px;
+                }
+            }
+        }
+    }
+
+    @keyframes cambio {
+        0%{ margin-left: 0;}
+        30% {margin-left: 0;}
+
+        35% {margin-left: -100%;}
+        65% {margin-left: -100%;}
+
+        70% {margin-left: -200%;}
+        100% {margin-left: -200%;}
+
+    }
+}
 
 
 }
