@@ -17,7 +17,7 @@ body .pinturas h1 {
   padding: 10px;
   font-size: 25px; }
 
-body .ecologico h1 {
+body .ecologico h1, body .ecologico__introduccion h2 {
   color: #034732;
   background-color: #008148;
   padding: 10px;
@@ -287,3 +287,92 @@ body {
     margin-left: -200%; }
   100% {
     margin-left: -200%; } }
+  body .ecologico__introduccion h2 {
+    text-align: center;
+    font-family: 'Arima', cursive; }
+  body .ecologico__introduccion .ecologico__informacion {
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+    width: 90%;
+    background-color: #93BE55;
+    border-radius: 20px;
+    margin: auto;
+    margin-bottom: 15px;
+    overflow: hidden; }
+    body .ecologico__introduccion .ecologico__informacion .texto-eco h5 {
+      background-color: #008148;
+      font-size: 20px;
+      margin-bottom: 5px;
+      margin-top: 0px;
+      font-family: 'Arima', cursive; }
+    body .ecologico__introduccion .ecologico__informacion .texto-eco p {
+      margin: 0;
+      font-family: 'Arima', cursive; }
+    body .ecologico__introduccion .ecologico__informacion .imagen-eco img {
+      border-radius: 15px;
+      width: 350px;
+      margin: 8px; }
+  body .ecologico__introduccion .ecologico__informacion2 {
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+    width: 90%;
+    background-color: #93BE55;
+    border-radius: 20px;
+    margin: auto;
+    margin-bottom: 15px;
+    overflow: hidden; }
+    body .ecologico__introduccion .ecologico__informacion2 .texto-eco2 h5 {
+      background-color: #008148;
+      font-size: 20px;
+      margin-bottom: 5px;
+      margin-top: 0px;
+      font-family: 'Arima', cursive; }
+    body .ecologico__introduccion .ecologico__informacion2 .texto-eco2 p {
+      margin: 0;
+      font-family: 'Arima', cursive; }
+    body .ecologico__introduccion .ecologico__informacion2 .imagen-eco2 img {
+      border-radius: 15px;
+      width: 250px;
+      height: 350px;
+      margin: 8px; }
+  body .ecologico__introduccion .ecologico__informacion3 {
+    display: grid;
+    grid-template-columns: 4fr 1fr;
+    width: 90%;
+    background-color: #93BE55;
+    border-radius: 20px;
+    margin: auto;
+    margin-bottom: 15px;
+    overflow: hidden; }
+    body .ecologico__introduccion .ecologico__informacion3 .texto-eco3 h5 {
+      background-color: #008148;
+      font-size: 20px;
+      margin-bottom: 5px;
+      margin-top: 0px;
+      font-family: 'Arima', cursive; }
+    body .ecologico__introduccion .ecologico__informacion3 .texto-eco3 p {
+      margin: 0;
+      font-family: 'Arima', cursive; }
+    body .ecologico__introduccion .ecologico__informacion3 .imagen-eco3 img {
+      border-radius: 15px;
+      width: 250px;
+      margin: 8px; }
+  @media (max-width: 768px) {
+    body .ecologico__introduccion .ecologico__informacion {
+      grid-template-columns: 1fr; }
+      body .ecologico__introduccion .ecologico__informacion .texto-eco {
+        text-align: center; }
+      body .ecologico__introduccion .ecologico__informacion .imagen-eco {
+        text-align: center; }
+    body .ecologico__introduccion .ecologico__informacion2 {
+      grid-template-columns: 1fr; }
+      body .ecologico__introduccion .ecologico__informacion2 .texto-eco2 {
+        text-align: center; }
+      body .ecologico__introduccion .ecologico__informacion2 .imagen-eco2 {
+        text-align: center; }
+    body .ecologico__introduccion .ecologico__informacion3 {
+      grid-template-columns: 1fr; }
+      body .ecologico__introduccion .ecologico__informacion3 .texto-eco3 {
+        text-align: center; }
+      body .ecologico__introduccion .ecologico__informacion3 .imagen-eco3 {
+        text-align: center; } }
