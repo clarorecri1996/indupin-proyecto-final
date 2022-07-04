@@ -1,0 +1,247 @@
+body .navegacionInferior .informacion .dato1, body .navegacionInferior .informacion .dato2, body .navegacionInferior .informacion .dato3 {
+  display: flex;
+  flex-direction: column;
+  color: #fff;
+  text-align: center;
+  font-family: 'Lato', sans-serif; }
+
+body .pinturas .pinturas__stock .pinturas__pinturas h3, body .pinturas .pinturas__stock .pinturas__esmaltes h3, body .pinturas .pinturas__stock .pinturas__eco h3, body .pinturas .pinturas__stock .pinturas__herramientas h3 {
+  color: #fff;
+  background-color: #B80C09;
+  padding: 10px;
+  font-size: 18px; }
+
+body .pinturas h1 {
+  color: #fff;
+  background-color: #0B4F6C;
+  padding: 10px;
+  font-size: 25px; }
+
+body .pinturas .pinturas__stock .pinturas__pinturas .pinturas__productos, body .pinturas .pinturas__stock .pinturas__esmaltes .pinturas__producto2 {
+  display: flex;
+  justify-content: space-evenly; }
+
+body .pinturas .pinturas__stock .pinturas__pinturas .pinturas__productos h5, body .pinturas .pinturas__stock .pinturas__esmaltes .pinturas__producto2 h5, body .pinturas .pinturas__stock .pinturas__eco .pinturas__producto3 h5, body .pinturas .pinturas__stock .pinturas__herramientas .pinturas__producto4 h5 {
+  width: 100%;
+  margin-top: 0;
+  text-align: center; }
+
+body {
+  margin: 0;
+  background-color: #ffffff;
+  background-image: url("data:image/svg+xml,%3Csvg width='42' height='44' viewBox='0 0 42 44' xmlns='http://www.w3.org/2000/svg'%3E%3Cg id='Page-1' fill='none' fill-rule='evenodd'%3E%3Cg id='brick-wall' fill='%23d3d3da' fill-opacity='0.4'%3E%3Cpath d='M0 0h42v44H0V0zm1 1h40v20H1V1zM0 23h20v20H0V23zm22 0h20v20H22V23z'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E"); }
+  body .navegacion__btn {
+    position: absolute;
+    top: 15px;
+    right: 30px;
+    display: none; }
+  body .navegacion .navegacion__superior {
+    display: flex;
+    justify-content: space-between;
+    align-items: center; }
+    body .navegacion .navegacion__superior .navegacion__logo img {
+      width: 150px; }
+    body .navegacion .navegacion__superior .navegacion__links {
+      display: flex; }
+      body .navegacion .navegacion__superior .navegacion__links li {
+        list-style: none;
+        margin: 15px; }
+        body .navegacion .navegacion__superior .navegacion__links li a {
+          text-decoration: none;
+          font-family: 'Lato', sans-serif;
+          padding: 5px; }
+          body .navegacion .navegacion__superior .navegacion__links li a:hover {
+            background: #B80C09;
+            color: #fff;
+            transition: all 400ms ease;
+            border-radius: 5px; }
+  body .presentacion .presentacion__bienvenida {
+    background: url(../imagenes/foto-de-inicio.jpg) no-repeat center center/cover;
+    height: 600px;
+    width: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: #0B4F6C; }
+    body .presentacion .presentacion__bienvenida .presentacion__texto {
+      text-align: center; }
+      body .presentacion .presentacion__bienvenida .presentacion__texto p {
+        font-size: 18px; }
+  body .presentacion .presentacion__productos {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-top: 50px;
+    grid-gap: 50px; }
+    body .presentacion .presentacion__productos .productos__indumentaria1 {
+      background: url(../imagenes/mancha-azul.png) no-repeat center center/cover;
+      height: 300px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      font-size: 18px; }
+      body .presentacion .presentacion__productos .productos__indumentaria1 h3 a {
+        text-decoration: none;
+        color: #ffffff; }
+      body .presentacion .presentacion__productos .productos__indumentaria1 h3:hover {
+        transform: scale(1.05);
+        transition: all 400ms ease; }
+    body .presentacion .presentacion__productos .productos__indumentaria2 {
+      background: url(../imagenes/mancha-negra.png) no-repeat center center/cover;
+      height: 300px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      font-size: 18px; }
+      body .presentacion .presentacion__productos .productos__indumentaria2 h3 a {
+        text-decoration: none;
+        color: #ffffff; }
+      body .presentacion .presentacion__productos .productos__indumentaria2 h3:hover {
+        transform: scale(1.05);
+        transition: all 400ms ease; }
+    body .presentacion .presentacion__productos .productos__indumentaria3 {
+      background: url(../imagenes/mancha-colores.png) no-repeat center center/cover;
+      height: 300px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      font-size: 18px; }
+      body .presentacion .presentacion__productos .productos__indumentaria3 h3 a {
+        text-decoration: none;
+        color: #ffffff; }
+      body .presentacion .presentacion__productos .productos__indumentaria3 h3:hover {
+        transform: scale(1.05);
+        transition: all 400ms ease; }
+    body .presentacion .presentacion__productos .productos__indumentaria4 {
+      background: url(../imagenes/mancha-roja.png) no-repeat center center/cover;
+      height: 300px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      font-size: 18px; }
+      body .presentacion .presentacion__productos .productos__indumentaria4 h3 a {
+        text-decoration: none;
+        color: #ffffff; }
+      body .presentacion .presentacion__productos .productos__indumentaria4 h3:hover {
+        transform: scale(1.05);
+        transition: all 400ms ease; }
+  body .navegacionInferior {
+    background: #0B4F6C;
+    margin-top: 20px; }
+    body .navegacionInferior .redes {
+      display: flex;
+      justify-content: center;
+      padding-right: 10px; }
+      body .navegacionInferior .redes a i {
+        color: black;
+        top: 15px;
+        padding: 5px; }
+        body .navegacionInferior .redes a i:hover {
+          color: #ffffff;
+          transition: all 400ms ease; }
+    body .navegacionInferior .informacion {
+      display: flex;
+      justify-content: space-around; }
+      body .navegacionInferior .informacion .dato1 span {
+        margin-bottom: 10px; }
+      body .navegacionInferior .informacion .dato2 span {
+        margin-bottom: 10px; }
+      body .navegacionInferior .informacion .dato3 h4 {
+        text-decoration: double; }
+      body .navegacionInferior .informacion .dato3 span {
+        margin-bottom: 10px; }
+  @media (max-width: 768px) {
+    body .navegacion__btn {
+      display: block; }
+    body .navegacion__links {
+      flex-direction: column;
+      position: absolute;
+      background: #01BAEF;
+      height: 100%;
+      margin: 0;
+      top: 0;
+      left: 0;
+      transform: translateX(-400px);
+      padding: 30px;
+      opacity: .9;
+      transition: transform .5s ease-in-out; }
+      body .navegacion__links li {
+        padding: 20px;
+        font-size: 16px; }
+    body .btn {
+      transform: translateX(-20px); } }
+  @media (max-width: 540px) {
+    body .presentacion__productos {
+      grid-template-columns: 1fr !important; } }
+  @media (max-width: 768px) {
+    body .redes {
+      padding-left: 10px; }
+    body .informacion {
+      flex-direction: column; } }
+  body .pinturas .pinturas__stock .pinturas__pinturas {
+    display: flex;
+    flex-direction: column; }
+    body .pinturas .pinturas__stock .pinturas__pinturas .pinturas__productos h5 a {
+      display: block;
+      text-decoration: none;
+      font-size: 18px; }
+      body .pinturas .pinturas__stock .pinturas__pinturas .pinturas__productos h5 a:hover {
+        background: #B80C09;
+        color: #fff;
+        transition: all 400ms ease;
+        border-radius: 5px; }
+  body .pinturas .pinturas__stock .pinturas__esmaltes {
+    display: flex;
+    flex-direction: column; }
+    body .pinturas .pinturas__stock .pinturas__esmaltes .pinturas__producto2 h5 a {
+      display: block;
+      text-decoration: none;
+      font-size: 18px; }
+      body .pinturas .pinturas__stock .pinturas__esmaltes .pinturas__producto2 h5 a:hover {
+        background: #B80C09;
+        color: #fff;
+        transition: all 400ms ease;
+        border-radius: 5px; }
+  body .pinturas .pinturas__stock .pinturas__eco {
+    display: flex;
+    flex-direction: column; }
+    body .pinturas .pinturas__stock .pinturas__eco .pinturas__producto3 {
+      display: flex;
+      justify-content: center; }
+      body .pinturas .pinturas__stock .pinturas__eco .pinturas__producto3 img {
+        height: 250px; }
+      body .pinturas .pinturas__stock .pinturas__eco .pinturas__producto3 h5 a {
+        display: block;
+        text-decoration: none;
+        font-size: 18px; }
+        body .pinturas .pinturas__stock .pinturas__eco .pinturas__producto3 h5 a:hover {
+          background: #B80C09;
+          color: #fff;
+          transition: all 400ms ease;
+          border-radius: 5px; }
+  body .pinturas .pinturas__stock .pinturas__herramientas {
+    display: flex;
+    flex-direction: column; }
+    body .pinturas .pinturas__stock .pinturas__herramientas .pinturas__producto4 {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-evenly; }
+      body .pinturas .pinturas__stock .pinturas__herramientas .pinturas__producto4 img {
+        height: 250px;
+        width: 350px; }
+      body .pinturas .pinturas__stock .pinturas__herramientas .pinturas__producto4 h5 a {
+        display: block;
+        text-decoration: none;
+        font-size: 18px; }
+        body .pinturas .pinturas__stock .pinturas__herramientas .pinturas__producto4 h5 a:hover {
+          background: #B80C09;
+          color: #fff;
+          transition: all 400ms ease;
+          border-radius: 5px; }
+  @media (max-width: 768px) {
+    body .pinturas .pinturas__productos {
+      flex-direction: column;
+      text-align: center; }
+    body .pinturas .pinturas__producto2 {
+      flex-direction: column;
+      text-align: center; } }

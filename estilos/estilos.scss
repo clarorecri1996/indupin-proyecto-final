@@ -1,0 +1,389 @@
+@import "partials/variantes";
+@import "partials/mixin";
+@import "partials/extend";
+@import "partials/mapas";
+body{
+    margin: 0;
+    background-color: #ffffff;
+    background-image: url("data:image/svg+xml,%3Csvg width='42' height='44' viewBox='0 0 42 44' xmlns='http://www.w3.org/2000/svg'%3E%3Cg id='Page-1' fill='none' fill-rule='evenodd'%3E%3Cg id='brick-wall' fill='%23d3d3da' fill-opacity='0.4'%3E%3Cpath d='M0 0h42v44H0V0zm1 1h40v20H1V1zM0 23h20v20H0V23zm22 0h20v20H22V23z'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
+    .navegacion__btn{
+        position: absolute;
+        top: 15px;
+        right: 30px;
+        display: none;
+        
+    }
+    .navegacion{
+        
+        .navegacion__superior{
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+                   
+            .navegacion__logo{
+                img{
+                    width: 150px;
+                }
+            }
+        
+            .navegacion__links{
+                display: flex;
+                
+                    li{
+                    list-style: none;
+                    margin: 15px;
+                    
+                    a{
+                        text-decoration: none;
+                        font-family: 'Lato', sans-serif;
+                        
+                        padding: 5px;
+
+                        &:hover{
+                           @include ancore;
+                        }
+                    }
+                }
+            }
+        }
+    }
+    
+    .presentacion{
+        .presentacion__bienvenida{
+            background: url(../imagenes/foto-de-inicio.jpg) no-repeat center center/cover;
+            height: 600px;
+            width: auto;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            color: $secundario;
+            .presentacion__texto{
+                
+                text-align: center;
+                p{
+                   
+                    font-size: 18px;
+                }
+            }
+        }
+        .presentacion__productos{
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            margin-top: 50px;
+            grid-gap: 50px;
+          
+            .productos__indumentaria1{
+                background: url(../imagenes/mancha-azul.png) no-repeat center center/cover;
+                height: 300px;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                font-size: 18px;
+                h3{
+                    a{
+                        text-decoration: none;
+                        color: #ffffff;
+                    }
+                    &:hover{
+                        @include animacion;
+                    }
+                }           
+            }
+
+            .productos__indumentaria2{
+                background: url(../imagenes/mancha-negra.png) no-repeat center center/cover;
+                height: 300px;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                font-size: 18px;
+                h3{
+                    a{
+                        text-decoration: none;
+                        color: #ffffff;
+                    }
+                    &:hover{
+                        @include animacion;
+                    }
+                }           
+            }
+
+            .productos__indumentaria3{
+                background: url(../imagenes/mancha-colores.png) no-repeat center center/cover;
+                height: 300px;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                font-size: 18px;
+                h3{
+                    a{
+                        text-decoration: none;
+                        color: #ffffff;
+                    }
+                    &:hover{
+                        @include animacion;
+                    }
+                }           
+            }
+
+            .productos__indumentaria4{
+                background: url(../imagenes/mancha-roja.png) no-repeat center center/cover;
+                height: 300px;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                font-size: 18px;
+                h3{
+                    a{
+                        text-decoration: none;
+                        color: #ffffff;
+                    }
+                    &:hover{
+                        @include animacion;
+                    }
+                }
+            }
+    }
+
+    }
+    .navegacionInferior{
+        background: $secundario;
+        margin-top: 20px;
+        .redes{
+            display: flex;
+            justify-content: center;
+            padding-right: 10px;
+            a{
+                i{
+                    color: black;
+                    top: 15px;
+                    padding: 5px;
+                    
+                    &:hover{
+                        color:#ffffff;
+                        transition: $transicion;
+                    }
+                }
+            }
+        }
+
+        .informacion{
+            display: flex;
+            justify-content: space-around;
+
+            .dato1{
+                @extend %centrar;
+
+                span{
+                    margin-bottom: 10px
+                }
+            }
+            .dato2{
+                @extend %centrar;
+
+                span{
+                    margin-bottom: 10px
+                }
+            }
+            .dato3{
+                @extend %centrar;
+                h4{
+                    text-decoration: double;
+                }
+                span{
+                    margin-bottom: 10px
+                }
+            }
+          
+        }
+
+    }
+
+    //HEADER
+    @media (max-width:map-get($breackpoints, md)) {
+
+        .navegacion__btn{
+            display: block;
+        }
+        .navegacion__links{
+            flex-direction: column;
+            position: absolute;
+            background: $terciario;
+            height: 100%;
+            margin: 0;
+            top: 0;
+            left: 0;
+            transform: translateX(-400px);
+            padding:30px;
+            opacity: .9;
+            transition: transform .5s ease-in-out;
+
+            li{
+                padding: 20px;
+                font-size: 16px;
+            }
+        }
+        .btn{
+           transform: translateX(-20px);
+         
+        }
+    }
+
+    //MAIN
+
+    @media (max-width:map-get($breackpoints, sm)){
+        .presentacion__productos{
+            grid-template-columns: 1fr !important;
+           
+        }
+    }
+    
+    //FOOTER
+
+    @media (max-width:map-get($breackpoints, md)){
+        .redes{
+            padding-left: 10px;
+        }
+        
+        .informacion{
+            flex-direction: column;
+        }
+    }
+
+
+
+//PRODUCTOS
+
+.pinturas{
+    h1{
+        @extend %titulo;
+    }
+
+    .pinturas__stock{
+        .pinturas__pinturas{
+            display:flex ;
+            flex-direction: column;
+            h3{
+                @extend %subtitulo;
+            }
+            .pinturas__productos{
+                @extend %productos;
+                h5{
+                    @extend %caracteristica_productos;
+
+                    a{
+                        display: block;
+                        text-decoration: none;
+                        font-size: 18px;
+                        &:hover{
+                            @include ancore;
+                        }
+                    }
+                }
+            }
+
+        }
+
+        .pinturas__esmaltes{
+            display:flex ;
+            flex-direction: column;
+            h3{
+                @extend %subtitulo;
+            }
+            .pinturas__producto2{
+                @extend %productos;
+                h5{
+                    @extend %caracteristica_productos;
+
+                    a{
+                        display: block;
+                        text-decoration: none;
+                        font-size: 18px;
+                        &:hover{
+                            @include ancore;
+                        }
+                    }
+                }
+            }
+        }
+
+        .pinturas__eco{
+            display:flex ;
+            flex-direction: column;
+            h3{
+                @extend %subtitulo;
+            }
+            
+            .pinturas__producto3{
+                    display: flex;
+                    justify-content: center;
+                img{
+                    height: 250px;
+                    
+                }
+
+                h5{
+                    @extend %caracteristica_productos;
+
+                    a{
+                        display: block;
+                        text-decoration: none;
+                        font-size: 18px;
+                        &:hover{
+                            @include ancore;
+                        }
+                    }
+                }
+            }
+        }
+
+        .pinturas__herramientas{
+            display: flex;
+            flex-direction: column;
+            h3{
+                @extend %subtitulo
+            }
+
+            .pinturas__producto4{
+                display: flex;
+                flex-wrap: wrap;
+                justify-content: space-evenly;
+        
+                img{
+                    height: 250px;
+                    width: 350px;
+                }
+                h5{
+                    @extend %caracteristica_productos;
+
+                    a{
+                        display: block;
+                        text-decoration: none;
+                        font-size: 18px;
+                        &:hover{
+                            @include ancore;
+                        }
+                    }
+                }
+            }
+        }
+    }
+    
+@media (max-width:map-get($breackpoints, md)){
+   .pinturas__productos{
+        flex-direction: column;
+        text-align: center;
+   }
+
+   .pinturas__producto2{
+    flex-direction: column;
+    text-align: center;
+   }
+}
+    
+}
+
+
+
+}

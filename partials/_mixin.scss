@@ -1,0 +1,11 @@
+@mixin ancore{
+    background: $principal;
+    color: #fff;
+    transition: $transicion;
+    border-radius: 5px;
+}
+
+@mixin animacion {
+    transform: scale(1.05);
+    transition: $transicion;
+}
