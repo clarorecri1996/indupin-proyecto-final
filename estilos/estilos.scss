@@ -389,7 +389,7 @@ body{
         @extend %ecotitulo;
     }
     .slider{
-        width: 80%;
+        width: 85%;
         margin: auto;
         overflow: hidden;
 
@@ -408,7 +408,15 @@ body{
                 img{
                     width: 100%;
                     height: 500px;
+                    margin-bottom: 0;
                 }
+
+                h3{
+                    text-align: center;
+                    background-color: $ecoprincipal;
+                    margin: 0;
+                }
+                
             }
         }
     }
