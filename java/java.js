@@ -1,3 +1,3 @@
 document.querySelector(".navegacion__btn").addEventListener("click", () =>{
-   document.querySelector(".navegacion__links").classList.toggle("btn");
+   document.querySelector(".navegacion__links").classList.toggle("desplegable");
 })

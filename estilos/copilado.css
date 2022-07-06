@@ -163,6 +163,7 @@ body {
       flex-direction: column;
       position: absolute;
       background: #01BAEF;
+      color: black;
       height: 100%;
       margin: 0;
       top: 0;
@@ -170,11 +171,11 @@ body {
       transform: translateX(-400px);
       padding: 30px;
       opacity: .9;
-      transition: transform .5s ease-in-out; }
+      transition: transform .7s ease-in-out; }
       body .navegacion__links li {
         padding: 20px;
         font-size: 16px; }
-    body .btn {
+    body .desplegable {
       transform: translateX(-20px); } }
   @media (max-width: 540px) {
     body .presentacion__productos {
@@ -376,3 +377,10 @@ body {
         text-align: center; }
       body .ecologico__introduccion .ecologico__informacion3 .imagen-eco3 {
         text-align: center; } }
+  body .nosotros h1 {
+    background-color: #0B4F6C;
+    color: #ffffff;
+    font-size: 25px; }
+  body .nosotros .director {
+    width: 300px;
+    height: 450px; }
