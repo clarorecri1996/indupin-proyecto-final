@@ -79,7 +79,7 @@ body{
                 display: flex;
                 justify-content: center;
                 align-items: center;
-                font-size: 18px;
+                font-size: 12px;
                 h3{
                     a{
                         text-decoration: none;
@@ -97,7 +97,7 @@ body{
                 display: flex;
                 justify-content: center;
                 align-items: center;
-                font-size: 18px;
+                font-size: 12px;
                 h3{
                     a{
                         text-decoration: none;
@@ -115,7 +115,7 @@ body{
                 display: flex;
                 justify-content: center;
                 align-items: center;
-                font-size: 18px;
+                font-size: 12px;
                 h3{
                     a{
                         text-decoration: none;
@@ -133,7 +133,7 @@ body{
                 display: flex;
                 justify-content: center;
                 align-items: center;
-                font-size: 18px;
+                font-size: 12px;
                 h3{
                     a{
                         text-decoration: none;
@@ -236,7 +236,7 @@ body{
     @media (max-width:map-get($breackpoints, sm)){
         .presentacion__productos{
             grid-template-columns: 1fr !important;
-           
+            
         }
     }
     
