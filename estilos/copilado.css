@@ -11,7 +11,7 @@ body .pinturas .pinturas__stock .pinturas__pinturas h3, body .pinturas .pinturas
   padding: 10px;
   font-size: 18px; }
 
-body .pinturas h1 {
+body .pinturas h1, body .ppe h1 {
   color: #fff;
   background-color: #0B4F6C;
   padding: 10px;
@@ -386,76 +386,89 @@ body {
   body .director {
     width: 300px;
     height: 450px; }
-
-.trabaja h1 {
-  background-color: #0B4F6C; }
-
-.trabaja .trabaja__informacion {
-  padding: 10px;
-  font-family: 'Arima', cursive; }
-  .trabaja .trabaja__informacion p ul {
-    color: black; }
-
-.trabaja .formulario {
-  display: flex;
-  min-height: 60vh; }
-  .trabaja .formulario .form {
-    background-color: #ffffff;
-    margin: auto;
-    width: 90%;
-    max-width: 400px;
-    padding: 4.5em 3em;
-    border-radius: 10px;
-    box-shadow: 0 5px 10px -5px;
-    text-align: center; }
-    .trabaja .formulario .form .form__title {
-      font-size: 2em;
-      margin-bottom: .5em; }
-    .trabaja .formulario .form .form__conteiner {
-      margin-top: 3em;
-      display: grid;
-      gap: 2.5em; }
-      .trabaja .formulario .form .form__conteiner .form__grupo {
-        position: relative; }
-        .trabaja .formulario .form .form__conteiner .form__grupo .form__input {
-          width: 100%;
-          background: none;
+  body .trabaja h1 {
+    background-color: #0B4F6C; }
+  body .trabaja .trabaja__informacion {
+    padding: 10px;
+    font-family: 'Arima', cursive; }
+    body .trabaja .trabaja__informacion p ul {
+      color: black; }
+  body .trabaja .formulario {
+    display: flex;
+    min-height: 60vh; }
+    body .trabaja .formulario .form {
+      background-color: #ffffff;
+      margin: auto;
+      width: 90%;
+      max-width: 400px;
+      padding: 4.5em 3em;
+      border-radius: 10px;
+      box-shadow: 0 5px 10px -5px;
+      text-align: center; }
+      body .trabaja .formulario .form .form__title {
+        font-size: 2em;
+        margin-bottom: .5em; }
+      body .trabaja .formulario .form .form__conteiner {
+        margin-top: 3em;
+        display: grid;
+        gap: 2.5em; }
+        body .trabaja .formulario .form .form__conteiner .form__grupo {
+          position: relative; }
+          body .trabaja .formulario .form .form__conteiner .form__grupo .form__input {
+            width: 100%;
+            background: none;
+            font-size: 1rem;
+            padding: .6em .3em;
+            border: none;
+            outline: none;
+            border-bottom: 1px solid black; }
+          body .trabaja .formulario .form .form__conteiner .form__grupo .form__input:focus + .form__label,
+          body .trabaja .formulario .form .form__conteiner .form__grupo .form__input:not(:placeholder-shown) + .form__label {
+            transform: translateY(-12px) scale(0.7);
+            transform-origin: left top;
+            color: #0B4F6C; }
+          body .trabaja .formulario .form .form__conteiner .form__grupo .form__label {
+            cursor: pointer;
+            position: absolute;
+            top: 0;
+            left: 5px;
+            transform: translateY(10px);
+            transition: transform .5s, color .3s;
+            transition: transform .4s; }
+          body .trabaja .formulario .form .form__conteiner .form__grupo .form__input:focus ~ .form__label,
+          body .trabaja .formulario .form .form__conteiner .form__grupo .form__input:not(:placeholder-shown) + .form__line {
+            transform: scale(0.65); }
+          body .trabaja .formulario .form .form__conteiner .form__grupo .form__line {
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            width: 100%;
+            height: 1px;
+            background-color: #3866f2; }
+        body .trabaja .formulario .form .form__conteiner .form__submit {
+          background-color: #0B4F6C;
+          color: #ffffff;
+          font-weight: 300;
           font-size: 1rem;
-          padding: .6em .3em;
+          padding: .8em 0;
           border: none;
-          outline: none;
-          border-bottom: 1px solid black; }
-        .trabaja .formulario .form .form__conteiner .form__grupo .form__input:focus + .form__label,
-        .trabaja .formulario .form .form__conteiner .form__grupo .form__input:not(:placeholder-shown) + .form__label {
-          transform: translateY(-12px) scale(0.7);
-          transform-origin: left top;
-          color: #0B4F6C; }
-        .trabaja .formulario .form .form__conteiner .form__grupo .form__label {
-          cursor: pointer;
-          position: absolute;
-          top: 0;
-          left: 5px;
-          transform: translateY(10px);
-          transition: transform .5s, color .3s;
-          transition: transform .4s; }
-        .trabaja .formulario .form .form__conteiner .form__grupo .form__input:focus ~ .form__label,
-        .trabaja .formulario .form .form__conteiner .form__grupo .form__input:not(:placeholder-shown) + .form__line {
-          transform: scale(0.65); }
-        .trabaja .formulario .form .form__conteiner .form__grupo .form__line {
-          position: absolute;
-          bottom: 0;
-          left: 0;
-          width: 100%;
-          height: 1px;
-          background-color: #3866f2; }
-      .trabaja .formulario .form .form__conteiner .form__submit {
-        background-color: #0B4F6C;
-        color: #ffffff;
-        font-weight: 300;
-        font-size: 1rem;
-        padding: .8em 0;
-        border: none;
-        border-radius: .5em; }
-  @media (max-width: 768px) {
-    .trabaja .formulario .form__title {
-      font-size: 1.8rem; } }
+          border-radius: .5em; }
+    @media (max-width: 768px) {
+      body .trabaja .formulario .form__title {
+        font-size: 1.8rem; } }
+  body .ppe .ppe__productos {
+    padding: 15px; }
+    body .ppe .ppe__productos .ppe__pinturas {
+      display: flex; }
+      body .ppe .ppe__productos .ppe__pinturas .ppe__img {
+        border: solid black;
+        border-radius: 5px;
+        margin-bottom: 15px;
+        max-height: 200px; }
+      body .ppe .ppe__productos .ppe__pinturas .ppe__texto {
+        margin-left: 15px;
+        font-family: "Arima", cursive; }
+        body .ppe .ppe__productos .ppe__pinturas .ppe__texto h3 {
+          margin-top: 0;
+          background-color: #B80C09;
+          color: #ffffff; }
