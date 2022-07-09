@@ -11,13 +11,13 @@ body .pinturas .pinturas__stock .pinturas__pinturas h3, body .pinturas .pinturas
   padding: 10px;
   font-size: 18px; }
 
-body .pinturas h1, body .ppe h1 {
+body .pinturas h1, body .trabaja h1, body .ppe h1, body .epd h1, body .ht h1 {
   color: #fff;
   background-color: #0B4F6C;
   padding: 10px;
   font-size: 25px; }
 
-body .ecologico h1, body .ecologico__introduccion h2 {
+body .ecologico h1, body .ecologico__introduccion h2, body .le h1 {
   color: #034732;
   background-color: #008148;
   padding: 10px;
@@ -386,8 +386,6 @@ body {
   body .director {
     width: 300px;
     height: 450px; }
-  body .trabaja h1 {
-    background-color: #0B4F6C; }
   body .trabaja .trabaja__informacion {
     padding: 10px;
     font-family: 'Arima', cursive; }
@@ -471,4 +469,120 @@ body {
         body .ppe .ppe__productos .ppe__pinturas .ppe__texto h3 {
           margin-top: 0;
           background-color: #B80C09;
-          color: #ffffff; }
+          color: #ffffff;
+          font-size: 16px; }
+        body .ppe .ppe__productos .ppe__pinturas .ppe__texto h5 {
+          font-size: 17px;
+          margin-bottom: 5px; }
+        body .ppe .ppe__productos .ppe__pinturas .ppe__texto h6 {
+          font-size: 17px;
+          margin: 0; }
+        body .ppe .ppe__productos .ppe__pinturas .ppe__texto p {
+          margin-top: 0;
+          font-size: 15px; }
+  @media (max-width: 540px) {
+    body .ppe .ppe__pinturas {
+      flex-direction: column;
+      margin-bottom: 50px; }
+      body .ppe .ppe__pinturas .ppe__img {
+        text-align: center; } }
+  body .epd .epd__productos {
+    padding: 15px; }
+    body .epd .epd__productos .epd__pinturas {
+      display: flex; }
+      body .epd .epd__productos .epd__pinturas .epd__img {
+        border: solid black;
+        border-radius: 5px;
+        margin-bottom: 15px;
+        max-height: 200px; }
+      body .epd .epd__productos .epd__pinturas .epd__texto {
+        margin-left: 15px;
+        font-family: "Arima", cursive; }
+        body .epd .epd__productos .epd__pinturas .epd__texto h3 {
+          margin-top: 0;
+          background-color: #B80C09;
+          color: #ffffff;
+          font-size: 16px; }
+        body .epd .epd__productos .epd__pinturas .epd__texto h5 {
+          font-size: 17px;
+          margin-bottom: 5px; }
+        body .epd .epd__productos .epd__pinturas .epd__texto h6 {
+          font-size: 17px;
+          margin: 0; }
+        body .epd .epd__productos .epd__pinturas .epd__texto p {
+          margin-top: 0;
+          font-size: 15px; }
+  @media (max-width: 540px) {
+    body .epd .epd__pinturas {
+      flex-direction: column;
+      margin-bottom: 50px; }
+      body .epd .epd__pinturas .epd__img {
+        text-align: center; } }
+  body .le .le__productos {
+    padding: 15px; }
+    body .le .le__productos .le__pinturas {
+      display: flex; }
+      body .le .le__productos .le__pinturas .le__img {
+        border: solid black;
+        border-radius: 5px;
+        margin-bottom: 15px;
+        max-height: 200px; }
+      body .le .le__productos .le__pinturas .le__texto {
+        margin-left: 15px;
+        font-family: "Arima", cursive; }
+        body .le .le__productos .le__pinturas .le__texto h3 {
+          margin-top: 0;
+          background-color: #008148;
+          color: #ffffff;
+          font-size: 16px; }
+        body .le .le__productos .le__pinturas .le__texto h5 {
+          font-size: 17px;
+          margin-bottom: 5px; }
+        body .le .le__productos .le__pinturas .le__texto h6 {
+          font-size: 17px;
+          margin: 0; }
+        body .le .le__productos .le__pinturas .le__texto p {
+          margin-top: 0;
+          font-size: 15px; }
+  @media (max-width: 540px) {
+    body .le .le__pinturas {
+      flex-direction: column;
+      margin-bottom: 50px; }
+      body .le .le__pinturas .le__img {
+        text-align: center; } }
+  body .ht .ht__productos {
+    padding: 15px; }
+    body .ht .ht__productos .ht__pinturas {
+      display: flex; }
+      body .ht .ht__productos .ht__pinturas .ht__img {
+        border: solid black;
+        border-radius: 5px;
+        margin-bottom: 15px;
+        max-height: 200px;
+        background-color: #ffffff; }
+        body .ht .ht__productos .ht__pinturas .ht__img img {
+          width: 200px; }
+      body .ht .ht__productos .ht__pinturas .ht__texto {
+        width: 90%;
+        margin-left: 15px;
+        font-family: "Arima", cursive; }
+        body .ht .ht__productos .ht__pinturas .ht__texto h3 {
+          margin-top: 0;
+          background-color: #B80C09;
+          color: #ffffff;
+          font-size: 16px; }
+        body .ht .ht__productos .ht__pinturas .ht__texto h5 {
+          font-size: 17px;
+          margin-bottom: 5px; }
+        body .ht .ht__productos .ht__pinturas .ht__texto h6 {
+          font-size: 17px;
+          margin: 0; }
+        body .ht .ht__productos .ht__pinturas .ht__texto p {
+          margin-top: 0;
+          font-size: 15px; }
+  @media (max-width: 540px) {
+    body .ht .ht__pinturas {
+      flex-direction: column;
+      margin-bottom: 50px; }
+      body .ht .ht__pinturas .ht__img {
+        text-align: center; } }

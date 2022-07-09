@@ -607,7 +607,7 @@ body{
     
     .trabaja{
         h1{
-            background-color: $secundario;
+            @extend %titulo;
         }
         
         .trabaja__informacion{
@@ -740,15 +740,232 @@ body{
                         margin-top: 0;
                         background-color: $principal;
                         color: #ffffff;
-                            
+                        font-size: 16px;                         
                     }
+                    h5{
+                        font-size: $tamañosubtitulos;
+                        margin-bottom: 5px;
+                    }
+                    h6{
+                        font-size: $tamañosubtitulos;
+                        margin: 0;
+                    }
+                    p{
+                        margin-top: 0;
+                        font-size: $tamañotexto;
+                    }
+
+
+                }
+
+            }
+            
+            
+        }
+        
+        @media (max-width:map-get($breackpoints, sm)){
+            .ppe__pinturas{
+                flex-direction: column;
+                margin-bottom: 50px;
+
+                .ppe__img{
+                    text-align: center;
                 }
             }
         }
-
     }
     
+//ESMALTES PRIMACIONES DISOLVENTES
+
+.epd{
+    h1{
+        @extend %titulo;
+    }
+
+    .epd__productos{
+        padding: 15px;
+
+        .epd__pinturas{
+            display: flex;
+        
+            .epd__img{
+                border: solid black;
+                border-radius: 5px;
+                margin-bottom: 15px;
+                max-height: 200px;
+            }
+            
+            .epd__texto{
+                margin-left: 15px;
+                font-family: $letratexto;
+                
+                h3{
+                    margin-top: 0;
+                    background-color: $principal;
+                    color: #ffffff;
+                    font-size: 16px;                         
+                }
+                h5{
+                    font-size: $tamañosubtitulos;
+                    margin-bottom: 5px;
+                }
+                h6{
+                    font-size: $tamañosubtitulos;
+                    margin: 0;
+                }
+                p{
+                    margin-top: 0;
+                    font-size: $tamañotexto;
+                }
+
+
+            }
+
+        }
+        
+        
+    }
     
+    @media (max-width:map-get($breackpoints, sm)){
+        .epd__pinturas{
+            flex-direction: column;
+            margin-bottom: 50px;
+
+            .epd__img{
+                text-align: center;
+            }
+        }
+    }
+}
+
+//LINEA ECOLOGICA
+.le{
+    h1{
+        @extend %ecotitulo;
+    }
+
+    .le__productos{
+        padding: 15px;
+
+        .le__pinturas{
+            display: flex;
+        
+            .le__img{
+                border: solid black;
+                border-radius: 5px;
+                margin-bottom: 15px;
+                max-height: 200px;
+            }
+            
+            .le__texto{
+                margin-left: 15px;
+                font-family: $letratexto;
+                
+                h3{
+                    margin-top: 0;
+                    background-color: $ecoprincipal;
+                    color: #ffffff;
+                    font-size: 16px;                         
+                }
+                h5{
+                    font-size: $tamañosubtitulos;
+                    margin-bottom: 5px;
+                }
+                h6{
+                    font-size: $tamañosubtitulos;
+                    margin: 0;
+                }
+                p{
+                    margin-top: 0;
+                    font-size: $tamañotexto;
+                }
+
+            }
+
+        }
+        
+        
+    }
+    
+    @media (max-width:map-get($breackpoints, sm)){
+        .le__pinturas{
+            flex-direction: column;
+            margin-bottom: 50px;
+
+            .le__img{
+                text-align: center;
+            }
+        }
+    }
+}
+
+//HERAMIENTAS DE TRABAJO
+
+.ht{
+    h1{
+        @extend %titulo;
+    }
+
+    .ht__productos{
+        padding: 15px;
+
+        .ht__pinturas{
+            display: flex;
+        
+            .ht__img{
+                border: solid black;
+                border-radius: 5px;
+                margin-bottom: 15px;
+                max-height: 200px;
+                background-color: #ffffff;
+                img{
+                    width: 200px;
+                }
+            }
+            
+            .ht__texto{
+                width: 90%;
+                margin-left: 15px;
+                font-family: $letratexto;
+                
+                h3{
+                    margin-top: 0;
+                    background-color: $principal;
+                    color: #ffffff;
+                    font-size: 16px;                         
+                }
+                h5{
+                    font-size: $tamañosubtitulos;
+                    margin-bottom: 5px;
+                }
+                h6{
+                    font-size: $tamañosubtitulos;
+                    margin: 0;
+                }
+                p{
+                    margin-top: 0;
+                    font-size: $tamañotexto;
+                }
+
+            }
+
+        }
+        
+        
+    }
+    
+    @media (max-width:map-get($breackpoints, sm)){
+        .ht__pinturas{
+            flex-direction: column;
+            margin-bottom: 50px;
+            
+            .ht__img{
+                text-align: center;
+            }
+        }
+    }
+}
+
     
 }
 
