@@ -462,7 +462,9 @@ body {
         border: solid black;
         border-radius: 5px;
         margin-bottom: 15px;
-        max-height: 200px; }
+        max-height: 200px;
+        background-color: #ffffff;
+        overflow: hidden; }
       body .ppe .ppe__productos .ppe__pinturas .ppe__texto {
         margin-left: 15px;
         font-family: "Arima", cursive; }
@@ -494,7 +496,9 @@ body {
         border: solid black;
         border-radius: 5px;
         margin-bottom: 15px;
-        max-height: 200px; }
+        max-height: 200px;
+        background-color: #ffffff;
+        overflow: hidden; }
       body .epd .epd__productos .epd__pinturas .epd__texto {
         margin-left: 15px;
         font-family: "Arima", cursive; }
@@ -526,7 +530,9 @@ body {
         border: solid black;
         border-radius: 5px;
         margin-bottom: 15px;
-        max-height: 200px; }
+        max-height: 200px;
+        background-color: #ffffff;
+        overflow: hidden; }
       body .le .le__productos .le__pinturas .le__texto {
         margin-left: 15px;
         font-family: "Arima", cursive; }
@@ -559,7 +565,8 @@ body {
         border-radius: 5px;
         margin-bottom: 15px;
         max-height: 200px;
-        background-color: #ffffff; }
+        background-color: #ffffff;
+        overflow: hidden; }
         body .ht .ht__productos .ht__pinturas .ht__img img {
           width: 200px; }
       body .ht .ht__productos .ht__pinturas .ht__texto {
