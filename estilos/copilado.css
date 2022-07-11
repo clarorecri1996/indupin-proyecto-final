@@ -179,7 +179,27 @@ body {
       transform: translateX(-20px); } }
   @media (max-width: 540px) {
     body .presentacion__productos {
-      grid-template-columns: 1fr !important; } }
+      grid-template-columns: 1fr !important; }
+      body .presentacion__productos .productos__indumentaria1 h3 {
+        font-size: x-large;
+        text-align: center; }
+        body .presentacion__productos .productos__indumentaria1 h3 a {
+          color: #B80C09 !important; }
+      body .presentacion__productos .productos__indumentaria2 h3 {
+        font-size: x-large;
+        text-align: center; }
+        body .presentacion__productos .productos__indumentaria2 h3 a {
+          color: #B80C09 !important; }
+      body .presentacion__productos .productos__indumentaria3 h3 {
+        font-size: x-large;
+        text-align: center; }
+        body .presentacion__productos .productos__indumentaria3 h3 a {
+          color: #0B4F6C !important; }
+      body .presentacion__productos .productos__indumentaria4 h3 {
+        font-size: x-large;
+        text-align: center; }
+        body .presentacion__productos .productos__indumentaria4 h3 a {
+          color: #0B4F6C !important; } }
   @media (max-width: 768px) {
     body .redes {
       padding-left: 10px; }
@@ -463,8 +483,7 @@ body {
         border-radius: 5px;
         margin-bottom: 15px;
         max-height: 200px;
-        background-color: #ffffff;
-        overflow: hidden; }
+        background-color: #ffffff; }
       body .ppe .ppe__productos .ppe__pinturas .ppe__texto {
         margin-left: 15px;
         font-family: "Arima", cursive; }
@@ -487,7 +506,8 @@ body {
       flex-direction: column;
       margin-bottom: 50px; }
       body .ppe .ppe__pinturas .ppe__img {
-        text-align: center; } }
+        text-align: center;
+        overflow: hidden; } }
   body .epd .epd__productos {
     padding: 15px; }
     body .epd .epd__productos .epd__pinturas {
@@ -497,8 +517,7 @@ body {
         border-radius: 5px;
         margin-bottom: 15px;
         max-height: 200px;
-        background-color: #ffffff;
-        overflow: hidden; }
+        background-color: #ffffff; }
       body .epd .epd__productos .epd__pinturas .epd__texto {
         margin-left: 15px;
         font-family: "Arima", cursive; }
@@ -521,7 +540,8 @@ body {
       flex-direction: column;
       margin-bottom: 50px; }
       body .epd .epd__pinturas .epd__img {
-        text-align: center; } }
+        text-align: center;
+        overflow: hidden; } }
   body .le .le__productos {
     padding: 15px; }
     body .le .le__productos .le__pinturas {
@@ -531,8 +551,7 @@ body {
         border-radius: 5px;
         margin-bottom: 15px;
         max-height: 200px;
-        background-color: #ffffff;
-        overflow: hidden; }
+        background-color: #ffffff; }
       body .le .le__productos .le__pinturas .le__texto {
         margin-left: 15px;
         font-family: "Arima", cursive; }
@@ -555,7 +574,8 @@ body {
       flex-direction: column;
       margin-bottom: 50px; }
       body .le .le__pinturas .le__img {
-        text-align: center; } }
+        text-align: center;
+        overflow: hidden; } }
   body .ht .ht__productos {
     padding: 15px; }
     body .ht .ht__productos .ht__pinturas {
@@ -592,4 +612,5 @@ body {
       flex-direction: column;
       margin-bottom: 50px; }
       body .ht .ht__pinturas .ht__img {
-        text-align: center; } }
+        text-align: center;
+        overflow: hidden; } }

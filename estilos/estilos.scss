@@ -238,6 +238,47 @@ body{
         .presentacion__productos{
             grid-template-columns: 1fr !important;
             
+            
+            .productos__indumentaria1{
+                h3{
+                    font-size: x-large;
+                    text-align: center;
+                    
+                    a{
+                        color: $principal !important;
+                    }
+                }
+            }
+
+            .productos__indumentaria2{
+                h3{
+                    font-size: x-large;
+                    text-align: center;
+                    a{
+                        color: $principal !important;
+                    }
+                }
+            }
+
+            .productos__indumentaria3{
+                h3{
+                    font-size: x-large;
+                    text-align: center;
+                    a{
+                        color: $secundario !important;
+                    }
+                }
+            }
+
+            .productos__indumentaria4{
+                h3{
+                    font-size: x-large;
+                    text-align: center;
+                    a{
+                        color: $secundario !important;
+                    }
+                }
+            }
         }
     }
     
@@ -731,7 +772,7 @@ body{
                     margin-bottom: 15px;
                     max-height: 200px;
                     background-color: #ffffff;
-                    overflow: hidden;
+                   
                 }
                 
                 .ppe__texto{
@@ -772,6 +813,7 @@ body{
 
                 .ppe__img{
                     text-align: center;
+                    overflow: hidden;
                 }
             }
         }
@@ -796,7 +838,7 @@ body{
                 margin-bottom: 15px;
                 max-height: 200px;
                 background-color: #ffffff;
-                overflow: hidden;
+                
             }
             
             .epd__texto{
@@ -837,6 +879,7 @@ body{
 
             .epd__img{
                 text-align: center;
+                overflow: hidden;
             }
         }
     }
@@ -860,7 +903,7 @@ body{
                 margin-bottom: 15px;
                 max-height: 200px;
                 background-color: #ffffff;
-                overflow: hidden;
+                
             }
             
             .le__texto{
@@ -900,6 +943,7 @@ body{
 
             .le__img{
                 text-align: center;
+                overflow: hidden;
             }
         }
     }
@@ -968,6 +1012,7 @@ body{
             
             .ht__img{
                 text-align: center;
+                overflow: hidden;
             }
         }
     }
